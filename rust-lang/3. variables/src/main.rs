@@ -20,4 +20,44 @@ fn main() {
     let first = a[0];
     let second = a[1];
     println!("{first}, {second}");
+
+    //операторы и выражения
+    let y = {
+        let x = 8;
+        x + 3
+    };
+
+    println!("The value of y is: {y}");
+
+    //if
+    let number = 7;
+
+    if number < 2 { 
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+    
+    //loop + break
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 2;
+
+        if counter == 12 {
+            break counter * 3;
+        }
+    };
+    println!("The result is {result}");
+
+    //while
+    let mut number = 5;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("Марш!");
 }

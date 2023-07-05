@@ -18,15 +18,15 @@ fn main() {
 }
 
 fn find_term(search_term: &str, quote: &str) -> String {
-    let  mut counter = 0;
-    let output:String = String::from("Zero result");
+    let  mut num = 0;
+    let mut answer = String::new();
     for line in quote.lines(){
-        counter += 1;
+        num += 1;
         if line.coutains(search_term) {
-            return format!("{}; {}", counter, line);
+            answer = format!("{}; {}", num, line);
         }
-    };
-    output
+    }
+    answer
 }
 
 

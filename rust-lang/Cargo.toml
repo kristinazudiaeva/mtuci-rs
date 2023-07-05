@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "3.variables",
+    "guessing_game",
+    "hello_cargo",
+]

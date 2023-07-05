@@ -51,7 +51,7 @@ mod tests {
     fn bottom_right() {
         let rect = Rect::new((1., 2.), 5.);
 
-        assert_eq!((6., 7.), rect.bottom_right())
+        assert_eq!((6., -3.), rect.bottom_right())
     }
 
     #[test]
@@ -68,3 +68,4 @@ mod tests {
         assert_eq!(20., rect.perimeter())
     }
 }
+

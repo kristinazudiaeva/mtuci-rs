@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "Home_work",
+    "rust-lang",
+    "hw2",
+]

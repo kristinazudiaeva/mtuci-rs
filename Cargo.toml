@@ -3,4 +3,5 @@ members = [
     "hw1",
     "hw2",
     "rust-lang",
+    ".github",
 ]
